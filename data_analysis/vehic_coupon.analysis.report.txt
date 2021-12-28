@@ -1,0 +1,98 @@
+Data Analysis Report for vehic_coupon
+2021-09-13
+Computing Skewness
+----------------------------------------
+                Feature                  |    Skewness    
+------------------------------------------------------------
+              destination                |    0.00825       Encoding destination dType: object
+               passanger                 |    1.30075       Encoding passanger dType: object
+                weather                  |   -1.90056       Encoding weather dType: object
+              temperature                |   -0.64331       
+                  time                   |   -0.27736       Encoding time dType: object
+                 coupon                  |    0.05705       Encoding coupon dType: object
+               expiration                |    0.23787       Encoding expiration dType: object
+                 gender                  |    0.05331       Encoding gender dType: object
+                  age                    |    0.51735       Encoding age dType: object
+             maritalStatus               |    0.27020       Encoding maritalStatus dType: object
+              has_children               |    0.34860       
+               education                 |    0.27517       Encoding education dType: object
+               occupation                |   -0.27686       Encoding occupation dType: object
+                 income                  |    0.45150       Encoding income dType: object
+                  car                    |    0.00339       Encoding car dType: object
+                  Bar                    |   -0.75767       Encoding Bar dType: object
+              CoffeeHouse                |   -0.17833       Encoding CoffeeHouse dType: object
+               CarryAway                 |    0.73185       Encoding CarryAway dType: object
+          RestaurantLessThan20           |    0.78723       Encoding RestaurantLessThan20 dType: object
+            Restaurant20To50             |   -0.58792       Encoding Restaurant20To50 dType: object
+            toCoupon_GEQ5min             |    0.00000       
+           toCoupon_GEQ15min             |   -0.24786       
+           toCoupon_GEQ25min             |    2.35153       
+             direction_same              |    1.38920       
+             direction_opp               |   -1.38920       
+                   Y                     |   -0.27633       
+Plot was generated and stored at >>>./output/vehic_coupon.analysis.skewness.png
+
+
+Computing Kurtosis
+----------------------------------------
+                Feature                  |    Kurtosis    
+------------------------------------------------------------
+              destination                |   -1.01830       Encoding destination dType: object
+               passanger                 |    0.62367       Encoding passanger dType: object
+                weather                  |    2.13090       Encoding weather dType: object
+              temperature                |   -1.02347       
+                  time                   |   -1.28630       Encoding time dType: object
+                 coupon                  |   -1.09196       Encoding coupon dType: object
+               expiration                |   -1.94342       Encoding expiration dType: object
+                 gender                  |   -1.99716       Encoding gender dType: object
+                  age                    |   -1.03774       Encoding age dType: object
+             maritalStatus               |   -0.48105       Encoding maritalStatus dType: object
+              has_children               |   -1.87848       
+               education                 |   -1.57478       Encoding education dType: object
+               occupation                |   -1.44931       Encoding occupation dType: object
+                 income                  |   -0.87519       Encoding income dType: object
+                  car                    |   -1.29229       Encoding car dType: object
+                  Bar                    |   -1.03788       Encoding Bar dType: object
+              CoffeeHouse                |   -1.51898       Encoding CoffeeHouse dType: object
+               CarryAway                 |   -0.56814       Encoding CarryAway dType: object
+          RestaurantLessThan20           |   -0.65119       Encoding RestaurantLessThan20 dType: object
+            Restaurant20To50             |   -1.25968       Encoding Restaurant20To50 dType: object
+            toCoupon_GEQ5min             |   -3.00000       
+           toCoupon_GEQ15min             |   -1.93856       
+           toCoupon_GEQ25min             |    3.52968       
+             direction_same              |   -0.07012       
+             direction_opp               |   -0.07012       
+                   Y                     |   -1.92364       
+Plot was generated and stored at >>>./output/vehic_coupon.analysis.kurtosis.png
+
+
+Testing If Data Follows Normal Distribution
+----------------------------------------
+                Feature                  | Shapiro P-Value |    Normally Dist    
+---------------------------------------------------------------------------------
+destination                              | 0.000000000E+00 |          NO                Encoding destination dType: object
+passanger                                | 0.000000000E+00 |          NO                Encoding passanger dType: object
+weather                                  | 0.000000000E+00 |          NO                Encoding weather dType: object
+temperature                              | 0.000000000E+00 |          NO                
+time                                     | 0.000000000E+00 |          NO                Encoding time dType: object
+coupon                                   | 0.000000000E+00 |          NO                Encoding coupon dType: object
+expiration                               | 0.000000000E+00 |          NO                Encoding expiration dType: object
+gender                                   | 0.000000000E+00 |          NO                Encoding gender dType: object
+age                                      | 0.000000000E+00 |          NO                Encoding age dType: object
+maritalStatus                            | 0.000000000E+00 |          NO                Encoding maritalStatus dType: object
+has_children                             | 0.000000000E+00 |          NO                
+education                                | 0.000000000E+00 |          NO                Encoding education dType: object
+occupation                               | 0.000000000E+00 |          NO                Encoding occupation dType: object
+income                                   | 0.000000000E+00 |          NO                Encoding income dType: object
+car                                      | 1.759307224E-07 |          NO                Encoding car dType: object
+Bar                                      | 0.000000000E+00 |          NO                Encoding Bar dType: object
+CoffeeHouse                              | 0.000000000E+00 |          NO                Encoding CoffeeHouse dType: object
+CarryAway                                | 0.000000000E+00 |          NO                Encoding CarryAway dType: object
+RestaurantLessThan20                     | 0.000000000E+00 |          NO                Encoding RestaurantLessThan20 dType: object
+Restaurant20To50                         | 0.000000000E+00 |          NO                Encoding Restaurant20To50 dType: object
+toCoupon_GEQ5min                         | 1.000000000E+00 |         YES                
+toCoupon_GEQ15min                        | 0.000000000E+00 |          NO                
+toCoupon_GEQ25min                        | 0.000000000E+00 |          NO                
+direction_same                           | 0.000000000E+00 |          NO                
+direction_opp                            | 0.000000000E+00 |          NO                
+Y                                        | 0.000000000E+00 |          NO                

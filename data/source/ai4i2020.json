@@ -1,0 +1,15 @@
+{
+  "UDI"                    : "CONTINUOUS",
+  "Product_ID"             : "CATEGORICAL",
+  "Air_temperature_[K]"    : "CONTINUOUS",
+  "Process_temperature_[K]": "CONTINUOUS",
+  "Rotational_speed_[rpm]" : "CONTINUOUS",
+  "Torque_[Nm]"            : "CONTINUOUS",
+  "Tool_wear_[min]"        : "CONTINUOUS",
+  "Machine_failure"        : "CATEGORICAL",
+  "TWF"                    : "CATEGORICAL",
+  "HDF"                    : "CATEGORICAL",
+  "PWF"                    : "CATEGORICAL",
+  "OSF"                    : "CATEGORICAL",
+  "RNF"                    : "CATEGORICAL"
+}

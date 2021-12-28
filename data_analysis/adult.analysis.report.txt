@@ -1,0 +1,65 @@
+Data Analysis Report for adult
+2021-09-13
+Computing Skewness
+----------------------------------------
+                Feature                  |    Skewness    
+------------------------------------------------------------
+                  age                    |    0.55872       
+                workclass                |   -0.75199       Encoding  workclass dType: object
+                 fnlwgt                  |    1.44691       
+                education                |   -0.93400       Encoding  education dType: object
+                educ-num                 |   -0.31166       
+             marital-status              |   -0.01351       Encoding  marital-status dType: object
+               occupation                |    0.11458       Encoding  occupation dType: object
+              relationship               |    0.78678       Encoding  relationship dType: object
+                  race                   |   -2.43527       Encoding  race dType: object
+                   se                    |   -0.71926       Encoding  se dType: object
+              capital-gain               |   11.95330       
+              capital-loss               |    4.59442       
+             hours-per-week              |    0.22763       
+             native-country              |   -3.65813       Encoding  native-country dType: object
+                 income                  |    1.21237       Encoding income dType: object
+Plot was generated and stored at >>>./output/adult.analysis.skewness.png
+
+
+Computing Kurtosis
+----------------------------------------
+                Feature                  |    Kurtosis    
+------------------------------------------------------------
+                  age                    |   -0.16629       
+                workclass                |    1.68194       Encoding  workclass dType: object
+                 fnlwgt                  |    6.21767       
+                education                |    0.68037       Encoding  education dType: object
+                educ-num                 |    0.62316       
+             marital-status              |   -0.53618       Encoding  marital-status dType: object
+               occupation                |   -1.23472       Encoding  occupation dType: object
+              relationship               |   -0.76842       Encoding  relationship dType: object
+                  race                   |    4.87538       Encoding  race dType: object
+                   se                    |   -1.48267       Encoding  se dType: object
+              capital-gain               |  154.77548       
+              capital-loss               |   20.37349       
+             hours-per-week              |    2.91605       
+             native-country              |   12.53094       Encoding  native-country dType: object
+                 income                  |   -0.53015       Encoding income dType: object
+Plot was generated and stored at >>>./output/adult.analysis.kurtosis.png
+
+
+Testing If Data Follows Normal Distribution
+----------------------------------------
+                Feature                  | Shapiro P-Value |    Normally Dist    
+---------------------------------------------------------------------------------
+age                                      | 0.000000000E+00 |          NO                
+ workclass                               | 0.000000000E+00 |          NO                Encoding  workclass dType: object
+ fnlwgt                                  | 0.000000000E+00 |          NO                
+ education                               | 0.000000000E+00 |          NO                Encoding  education dType: object
+ educ-num                                | 0.000000000E+00 |          NO                
+ marital-status                          | 0.000000000E+00 |          NO                Encoding  marital-status dType: object
+ occupation                              | 0.000000000E+00 |          NO                Encoding  occupation dType: object
+ relationship                            | 0.000000000E+00 |          NO                Encoding  relationship dType: object
+ race                                    | 0.000000000E+00 |          NO                Encoding  race dType: object
+ se                                      | 0.000000000E+00 |          NO                Encoding  se dType: object
+ capital-gain                            | 0.000000000E+00 |          NO                
+ capital-loss                            | 0.000000000E+00 |          NO                
+ hours-per-week                          | 0.000000000E+00 |          NO                
+ native-country                          | 0.000000000E+00 |          NO                Encoding  native-country dType: object
+income                                   | 0.000000000E+00 |          NO                Encoding income dType: object

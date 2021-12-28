@@ -1,0 +1,7 @@
+{
+  "sepal_length" : "CONTINUOUS",
+  "sepal_width"  : "CONTINUOUS",
+  "petal_length" : "CONTINUOUS",
+  "petal_width"  : "CONTINUOUS",
+  "target"       : "CATEGORICAL"
+}

@@ -1,0 +1,17 @@
+{
+"age" : "CONTINUOUS",
+"workclass" : "CATEGORICAL",
+"fnlwgt" : "CONTINUOUS",
+"education" : "CATEGORICAL",
+"educ-num" : "CONTINUOUS",
+"marital-status" : "CATEGORICAL",
+"occupation" : "CATEGORICAL",
+"relationship" : "CATEGORICAL",
+"race" : "CATEGORICAL",
+"sex" : "CATEGORICAL",
+"capital-gain" : "CONTINUOUS",
+"capital-loss" : "CONTINUOUS",
+"hours-per-week" : "CONTINUOUS",
+"native-country" : "CATEGORICAL",
+"income" : "CATEGORICAL"
+}

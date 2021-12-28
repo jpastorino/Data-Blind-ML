@@ -1,0 +1,35 @@
+Data Analysis Report for iris
+2021-09-13
+Computing Skewness
+----------------------------------------
+                Feature                  |    Skewness    
+------------------------------------------------------------
+              sepal_length               |    0.31175       
+               sepal_width               |    0.33070       
+              petal_length               |   -0.27171       
+               petal_width               |   -0.10394       
+                 target                  |    0.00000       Encoding  target dType: object
+Plot was generated and stored at >>>./output/iris.analysis.skewness.png
+
+
+Computing Kurtosis
+----------------------------------------
+                Feature                  |    Kurtosis    
+------------------------------------------------------------
+              sepal_length               |   -0.57357       
+               sepal_width               |    0.24144       
+              petal_length               |   -1.39536       
+               petal_width               |   -1.33525       
+                 target                  |   -1.50000       Encoding  target dType: object
+Plot was generated and stored at >>>./output/iris.analysis.kurtosis.png
+
+
+Testing If Data Follows Normal Distribution
+----------------------------------------
+                Feature                  | Shapiro P-Value |    Normally Dist    
+---------------------------------------------------------------------------------
+sepal_length                             | 1.017984003E-02 |          NO                
+ sepal_width                             | 7.518343627E-02 |         YES                
+ petal_length                            | 7.544982417E-10 |          NO                
+ petal_width                             | 1.864667887E-08 |          NO                
+ target                                  | 2.716364460E-13 |          NO                Encoding  target dType: object

@@ -1,0 +1,62 @@
+Data Analysis Report for ai4i2020
+2021-09-13
+Computing Skewness
+----------------------------------------
+                Feature                  |    Skewness    
+------------------------------------------------------------
+                  UDI                    |    0.00000       
+               Product ID                |    0.00000       Encoding Product ID dType: object
+                  Type                   |   -0.11111       Encoding Type dType: object
+          Air temperature [K]            |    0.11426       
+        Process temperature [K]          |    0.01503       
+         Rotational speed [rpm]          |    1.99287       
+              Torque [Nm]                |   -0.00952       
+            Tool wear [min]              |    0.02729       
+            Machine failure              |    5.15108       
+                  TWF                    |   14.64227       
+                  HDF                    |    9.16341       
+                  PWF                    |   10.11300       
+                  OSF                    |    9.95242       
+                  RNF                    |   22.87614       
+Plot was generated and stored at >>>./output/ai4i2020.analysis.skewness.png
+
+
+Computing Kurtosis
+----------------------------------------
+                Feature                  |    Kurtosis    
+------------------------------------------------------------
+                  UDI                    |   -1.20000       
+               Product ID                |   -1.20000       Encoding Product ID dType: object
+                  Type                   |   -0.44445       Encoding Type dType: object
+          Air temperature [K]            |   -0.83614       
+        Process temperature [K]          |   -0.50008       
+         Rotational speed [rpm]          |    7.38865       
+              Torque [Nm]                |   -0.01383       
+            Tool wear [min]              |   -1.16675       
+            Machine failure              |   24.53361       
+                  TWF                    |  212.39593       
+                  HDF                    |   81.96816       
+                  PWF                    |  100.27275       
+                  OSF                    |   97.05071       
+                  RNF                    |  521.31769       
+Plot was generated and stored at >>>./output/ai4i2020.analysis.kurtosis.png
+
+
+Testing If Data Follows Normal Distribution
+----------------------------------------
+                Feature                  | Shapiro P-Value |    Normally Dist    
+---------------------------------------------------------------------------------
+UDI                                      | 0.000000000E+00 |          NO                
+Product ID                               | 0.000000000E+00 |          NO                Encoding Product ID dType: object
+Type                                     | 0.000000000E+00 |          NO                Encoding Type dType: object
+Air temperature [K]                      | 1.320414667E-34 |          NO                
+Process temperature [K]                  | 9.738203885E-23 |          NO                
+Rotational speed [rpm]                   | 0.000000000E+00 |          NO                
+Torque [Nm]                              | 3.820365667E-01 |         YES                
+Tool wear [min]                          | 0.000000000E+00 |          NO                
+Machine failure                          | 0.000000000E+00 |          NO                
+TWF                                      | 0.000000000E+00 |          NO                
+HDF                                      | 0.000000000E+00 |          NO                
+PWF                                      | 0.000000000E+00 |          NO                
+OSF                                      | 0.000000000E+00 |          NO                
+RNF                                      | 0.000000000E+00 |          NO                

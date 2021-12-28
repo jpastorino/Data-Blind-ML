@@ -1,0 +1,392 @@
+Data Analysis Report for miocardial
+2021-09-13
+Computing Skewness
+----------------------------------------
+                Feature                  |    Skewness    
+------------------------------------------------------------
+                   ID                    |    0.00000       
+                  AGE                    |   -0.16173       Encoding AGE dType: object
+                  SEX                    |   -0.52289       
+                INF_ANAM                 |    1.50925       Encoding INF_ANAM dType: object
+               STENOK_AN                 |    0.37579       Encoding STENOK_AN dType: object
+               FK_STENOK                 |    0.69437       Encoding FK_STENOK dType: object
+                IBS_POST                 |   -0.13256       Encoding IBS_POST dType: object
+                IBS_NASL                 |   -5.07457       Encoding IBS_NASL dType: object
+                   GB                    |   -0.24510       Encoding GB dType: object
+               SIM_GIPERT                |    5.69005       Encoding SIM_GIPERT dType: object
+                DLIT_AG                  |   -0.17129       Encoding DLIT_AG dType: object
+                 ZSN_A                   |    3.42563       Encoding ZSN_A dType: object
+                  nr11                   |    5.87740       Encoding nr11 dType: object
+                  nr01                   |    8.41519       Encoding nr01 dType: object
+                  nr02                   |    7.17208       Encoding nr02 dType: object
+                  nr03                   |    6.21530       Encoding nr03 dType: object
+                  nr04                   |    6.54023       Encoding nr04 dType: object
+                  nr07                   |    8.72207       Encoding nr07 dType: object
+                  nr08                   |    8.41519       Encoding nr08 dType: object
+                  np01                   |    9.29715       Encoding np01 dType: object
+                  np04                   |    9.17001       Encoding np04 dType: object
+                  np05                   |    8.27368       Encoding np05 dType: object
+                  np07                   |    9.42816       Encoding np07 dType: object
+                  np08                   |    8.81015       Encoding np08 dType: object
+                  np09                   |    9.29715       Encoding np09 dType: object
+                  np10                   |    9.17001       Encoding np10 dType: object
+               endocr_01                 |    2.36346       Encoding endocr_01 dType: object
+               endocr_02                 |    6.55451       Encoding endocr_02 dType: object
+               endocr_03                 |    9.78763       Encoding endocr_03 dType: object
+               zab_leg_01                |    3.39499       Encoding zab_leg_01 dType: object
+               zab_leg_02                |    3.63118       Encoding zab_leg_02 dType: object
+               zab_leg_03                |    7.11371       Encoding zab_leg_03 dType: object
+               zab_leg_04                |   11.78265       Encoding zab_leg_04 dType: object
+               zab_leg_06                |    8.93314       Encoding zab_leg_06 dType: object
+               S_AD_KBRIG                |   -0.95021       Encoding S_AD_KBRIG dType: object
+               D_AD_KBRIG                |   -2.25862       Encoding D_AD_KBRIG dType: object
+               S_AD_ORIT                 |    0.90028       Encoding S_AD_ORIT dType: object
+               D_AD_ORIT                 |   -1.17723       Encoding D_AD_ORIT dType: object
+                O_L_POST                 |    3.92223       Encoding O_L_POST dType: object
+               K_SH_POST                 |    6.03367       Encoding K_SH_POST dType: object
+               MP_TP_POST                |    3.84356       Encoding MP_TP_POST dType: object
+                SVT_POST                 |   10.08574       Encoding SVT_POST dType: object
+                GT_POST                  |   10.08574       Encoding GT_POST dType: object
+               FIB_G_POST                |    8.98912       Encoding FIB_G_POST dType: object
+                 ant_im                  |    0.48528       Encoding ant_im dType: object
+                 lat_im                  |    1.83086       Encoding lat_im dType: object
+                 inf_im                  |    1.04382       Encoding inf_im dType: object
+                post_im                  |    2.91091       Encoding post_im dType: object
+                IM_PG_P                  |    5.77495       Encoding IM_PG_P dType: object
+             ritm_ecg_p_01               |    0.09556       Encoding ritm_ecg_p_01 dType: object
+             ritm_ecg_p_02               |    2.35723       Encoding ritm_ecg_p_02 dType: object
+             ritm_ecg_p_04               |    2.73767       Encoding ritm_ecg_p_04 dType: object
+             ritm_ecg_p_06               |    2.87160       Encoding ritm_ecg_p_06 dType: object
+             ritm_ecg_p_07               |    1.42770       Encoding ritm_ecg_p_07 dType: object
+             ritm_ecg_p_08               |    2.60727       Encoding ritm_ecg_p_08 dType: object
+              n_r_ecg_p_01               |    2.96654       Encoding n_r_ecg_p_01 dType: object
+              n_r_ecg_p_02               |    3.37018       Encoding n_r_ecg_p_02 dType: object
+              n_r_ecg_p_03               |    2.12953       Encoding n_r_ecg_p_03 dType: object
+              n_r_ecg_p_04               |    2.88806       Encoding n_r_ecg_p_04 dType: object
+              n_r_ecg_p_05               |    2.88108       Encoding n_r_ecg_p_05 dType: object
+              n_r_ecg_p_06               |    3.16601       Encoding n_r_ecg_p_06 dType: object
+              n_r_ecg_p_08               |    3.40633       Encoding n_r_ecg_p_08 dType: object
+              n_r_ecg_p_09               |    3.42465       Encoding n_r_ecg_p_09 dType: object
+              n_r_ecg_p_10               |    3.42465       Encoding n_r_ecg_p_10 dType: object
+              n_p_ecg_p_01               |    3.42465       Encoding n_p_ecg_p_01 dType: object
+              n_p_ecg_p_03               |    3.16601       Encoding n_p_ecg_p_03 dType: object
+              n_p_ecg_p_04               |    3.39723       Encoding n_p_ecg_p_04 dType: object
+              n_p_ecg_p_05               |    3.42465       Encoding n_p_ecg_p_05 dType: object
+              n_p_ecg_p_06               |    3.20684       Encoding n_p_ecg_p_06 dType: object
+              n_p_ecg_p_07               |    2.67077       Encoding n_p_ecg_p_07 dType: object
+              n_p_ecg_p_08               |    3.37916       Encoding n_p_ecg_p_08 dType: object
+              n_p_ecg_p_09               |    3.35234       Encoding n_p_ecg_p_09 dType: object
+              n_p_ecg_p_10               |    3.14991       Encoding n_p_ecg_p_10 dType: object
+              n_p_ecg_p_11               |    3.19861       Encoding n_p_ecg_p_11 dType: object
+              n_p_ecg_p_12               |    2.82621       Encoding n_p_ecg_p_12 dType: object
+              fibr_ter_01                |    9.78763       Encoding fibr_ter_01 dType: object
+              fibr_ter_02                |    9.28740       Encoding fibr_ter_02 dType: object
+              fibr_ter_03                |    5.16116       Encoding fibr_ter_03 dType: object
+              fibr_ter_05                |   11.74000       Encoding fibr_ter_05 dType: object
+              fibr_ter_06                |   10.55852       Encoding fibr_ter_06 dType: object
+              fibr_ter_07                |   11.23346       Encoding fibr_ter_07 dType: object
+              fibr_ter_08                |   12.30020       Encoding fibr_ter_08 dType: object
+                 GIPO_K                  |    0.47718       Encoding GIPO_K dType: object
+                K_BLOOD                  |    0.80911       Encoding K_BLOOD dType: object
+                GIPER_Na                 |    1.28681       Encoding GIPER_Na dType: object
+                Na_BLOOD                 |    0.42427       Encoding Na_BLOOD dType: object
+               ALT_BLOOD                 |    0.77162       Encoding ALT_BLOOD dType: object
+               AST_BLOOD                 |    1.08902       Encoding AST_BLOOD dType: object
+               KFK_BLOOD                 |  -25.03334       Encoding KFK_BLOOD dType: object
+                L_BLOOD                  |   -0.96801       Encoding L_BLOOD dType: object
+                  ROE                    |    0.07314       Encoding ROE dType: object
+                TIME_B_S                 |    0.18440       Encoding TIME_B_S dType: object
+                R_AB_1_n                 |    2.53847       Encoding R_AB_1_n dType: object
+                R_AB_2_n                 |    2.85188       Encoding R_AB_2_n dType: object
+                R_AB_3_n                 |    2.88945       Encoding R_AB_3_n dType: object
+                 NA_KB                   |   -0.24508       Encoding NA_KB dType: object
+               NOT_NA_KB                 |   -0.36912       Encoding NOT_NA_KB dType: object
+                 LID_KB                  |   -0.05699       Encoding LID_KB dType: object
+                 NITR_S                  |    2.63813       Encoding NITR_S dType: object
+                NA_R_1_n                 |    1.99267       Encoding NA_R_1_n dType: object
+                NA_R_2_n                 |    3.05834       Encoding NA_R_2_n dType: object
+                NA_R_3_n                 |    2.78926       Encoding NA_R_3_n dType: object
+               NOT_NA_1_n                |    3.02375       Encoding NOT_NA_1_n dType: object
+               NOT_NA_2_n                |    2.92834       Encoding NOT_NA_2_n dType: object
+               NOT_NA_3_n                |    2.60561       Encoding NOT_NA_3_n dType: object
+                LID_S_n                  |    1.07784       Encoding LID_S_n dType: object
+               B_BLOK_S_n                |    2.47499       Encoding B_BLOK_S_n dType: object
+               ANT_CA_S_n                |   -0.55332       Encoding ANT_CA_S_n dType: object
+               GEPAR_S_n                 |   -0.72503       Encoding GEPAR_S_n dType: object
+                ASP_S_n                  |   -0.86557       Encoding ASP_S_n dType: object
+                TIKL_S_n                 |    6.93913       Encoding TIKL_S_n dType: object
+               TRENT_S_n                 |    1.69151       Encoding TRENT_S_n dType: object
+               FIBR_PREDS                |    2.66667       
+               PREDS_TAH                 |    9.05604       
+               JELUD_TAH                 |    6.12385       
+               FIBR_JELUD                |    4.58118       
+                A_V_BLOK                 |    5.18259       
+               OTEK_LANC                 |    2.79195       
+                 RAZRIV                  |    5.33988       
+                DRESSLER                 |    4.43991       
+                  ZSN                    |    1.27138       
+                 REC_IM                  |    2.79195       
+               P_IM_STEN                 |    2.92948       
+                 LET_IS                  |    3.33588       
+Plot was generated and stored at >>>./output/miocardial.analysis.skewness.png
+
+
+Computing Kurtosis
+----------------------------------------
+                Feature                  |    Kurtosis    
+------------------------------------------------------------
+                   ID                    |   -1.20000       
+                  AGE                    |   -0.18235       Encoding AGE dType: object
+                  SEX                    |   -1.72659       
+                INF_ANAM                 |    1.56775       Encoding INF_ANAM dType: object
+               STENOK_AN                 |   -1.51014       Encoding STENOK_AN dType: object
+               FK_STENOK                 |    0.56553       Encoding FK_STENOK dType: object
+                IBS_POST                 |   -1.08823       Encoding IBS_POST dType: object
+                IBS_NASL                 |   24.75609       Encoding IBS_NASL dType: object
+                   GB                    |   -1.34729       Encoding GB dType: object
+               SIM_GIPERT                |   35.08737       Encoding SIM_GIPERT dType: object
+                DLIT_AG                  |   -1.75468       Encoding DLIT_AG dType: object
+                 ZSN_A                   |   10.98816       Encoding ZSN_A dType: object
+                  nr11                   |   35.73613       Encoding nr11 dType: object
+                  nr01                   |   69.67733       Encoding nr01 dType: object
+                  nr02                   |   52.02472       Encoding nr02 dType: object
+                  nr03                   |   39.76589       Encoding nr03 dType: object
+                  nr04                   |   43.79163       Encoding nr04 dType: object
+                  nr07                   |   74.31306       Encoding nr07 dType: object
+                  nr08                   |   69.67733       Encoding nr08 dType: object
+                  np01                   |   85.05498       Encoding np01 dType: object
+                  np04                   |   82.98017       Encoding np04 dType: object
+                  np05                   |   68.88061       Encoding np05 dType: object
+                  np07                   |   87.21181       Encoding np07 dType: object
+                  np08                   |   77.20700       Encoding np08 dType: object
+                  np09                   |   85.05498       Encoding np09 dType: object
+                  np10                   |   82.98017       Encoding np10 dType: object
+               endocr_01                 |    4.71194       Encoding endocr_01 dType: object
+               endocr_02                 |   46.42235       Encoding endocr_02 dType: object
+               endocr_03                 |   99.87275       Encoding endocr_03 dType: object
+               zab_leg_01                |   11.29011       Encoding zab_leg_01 dType: object
+               zab_leg_02                |   13.19979       Encoding zab_leg_02 dType: object
+               zab_leg_03                |   55.31479       Encoding zab_leg_03 dType: object
+               zab_leg_04                |  145.42380       Encoding zab_leg_04 dType: object
+               zab_leg_06                |   86.42411       Encoding zab_leg_06 dType: object
+               S_AD_KBRIG                |   -0.83560       Encoding S_AD_KBRIG dType: object
+               D_AD_KBRIG                |    4.17740       Encoding D_AD_KBRIG dType: object
+               S_AD_ORIT                 |   -0.61051       Encoding S_AD_ORIT dType: object
+               D_AD_ORIT                 |   -0.00257       Encoding D_AD_ORIT dType: object
+                O_L_POST                 |   15.98358       Encoding O_L_POST dType: object
+               K_SH_POST                 |   38.59325       Encoding K_SH_POST dType: object
+               MP_TP_POST                |   15.31056       Encoding MP_TP_POST dType: object
+                SVT_POST                 |  103.51679       Encoding SVT_POST dType: object
+                GT_POST                  |  103.51679       Encoding GT_POST dType: object
+               FIB_G_POST                |   83.83275       Encoding FIB_G_POST dType: object
+                 ant_im                  |   -1.49013       Encoding ant_im dType: object
+                 lat_im                  |    3.17044       Encoding lat_im dType: object
+                 inf_im                  |   -0.31022       Encoding inf_im dType: object
+                post_im                  |    7.70638       Encoding post_im dType: object
+                IM_PG_P                  |   33.64108       Encoding IM_PG_P dType: object
+             ritm_ecg_p_01               |   -0.42403       Encoding ritm_ecg_p_01 dType: object
+             ritm_ecg_p_02               |    3.92747       Encoding ritm_ecg_p_02 dType: object
+             ritm_ecg_p_04               |    5.61118       Encoding ritm_ecg_p_04 dType: object
+             ritm_ecg_p_06               |    6.25159       Encoding ritm_ecg_p_06 dType: object
+             ritm_ecg_p_07               |    0.76381       Encoding ritm_ecg_p_07 dType: object
+             ritm_ecg_p_08               |    5.01104       Encoding ritm_ecg_p_08 dType: object
+              n_r_ecg_p_01               |    7.19472       Encoding n_r_ecg_p_01 dType: object
+              n_r_ecg_p_02               |    9.42877       Encoding n_r_ecg_p_02 dType: object
+              n_r_ecg_p_03               |    3.30039       Encoding n_r_ecg_p_03 dType: object
+              n_r_ecg_p_04               |    6.78587       Encoding n_r_ecg_p_04 dType: object
+              n_r_ecg_p_05               |    6.74995       Encoding n_r_ecg_p_05 dType: object
+              n_r_ecg_p_06               |    8.27178       Encoding n_r_ecg_p_06 dType: object
+              n_r_ecg_p_08               |    9.63922       Encoding n_r_ecg_p_08 dType: object
+              n_r_ecg_p_09               |    9.74649       Encoding n_r_ecg_p_09 dType: object
+              n_r_ecg_p_10               |    9.74649       Encoding n_r_ecg_p_10 dType: object
+              n_p_ecg_p_01               |    9.74649       Encoding n_p_ecg_p_01 dType: object
+              n_p_ecg_p_03               |    8.27178       Encoding n_p_ecg_p_03 dType: object
+              n_p_ecg_p_04               |    9.58610       Encoding n_p_ecg_p_04 dType: object
+              n_p_ecg_p_05               |    9.74649       Encoding n_p_ecg_p_05 dType: object
+              n_p_ecg_p_06               |    8.49883       Encoding n_p_ecg_p_06 dType: object
+              n_p_ecg_p_07               |    5.69928       Encoding n_p_ecg_p_07 dType: object
+              n_p_ecg_p_08               |    9.48088       Encoding n_p_ecg_p_08 dType: object
+              n_p_ecg_p_09               |    9.32556       Encoding n_p_ecg_p_09 dType: object
+              n_p_ecg_p_10               |    8.18288       Encoding n_p_ecg_p_10 dType: object
+              n_p_ecg_p_11               |    8.45286       Encoding n_p_ecg_p_11 dType: object
+              n_p_ecg_p_12               |    6.46974       Encoding n_p_ecg_p_12 dType: object
+              fibr_ter_01                |   99.87275       Encoding fibr_ter_01 dType: object
+              fibr_ter_02                |   90.61255       Encoding fibr_ter_02 dType: object
+              fibr_ter_03                |   28.62318       Encoding fibr_ter_03 dType: object
+              fibr_ter_05                |  139.06858       Encoding fibr_ter_05 dType: object
+              fibr_ter_06                |  114.78519       Encoding fibr_ter_06 dType: object
+              fibr_ter_07                |  128.45250       Encoding fibr_ter_07 dType: object
+              fibr_ter_08                |  151.15514       Encoding fibr_ter_08 dType: object
+                 GIPO_K                  |   -1.24224       Encoding GIPO_K dType: object
+                K_BLOOD                  |   -0.79066       Encoding K_BLOOD dType: object
+                GIPER_Na                 |   -0.30793       Encoding GIPER_Na dType: object
+                Na_BLOOD                 |   -0.83449       Encoding Na_BLOOD dType: object
+               ALT_BLOOD                 |   -0.72205       Encoding ALT_BLOOD dType: object
+               AST_BLOOD                 |   -0.27847       Encoding AST_BLOOD dType: object
+               KFK_BLOOD                 |  663.84650       Encoding KFK_BLOOD dType: object
+                L_BLOOD                  |   -0.59117       Encoding L_BLOOD dType: object
+                  ROE                    |   -1.51297       Encoding ROE dType: object
+                TIME_B_S                 |   -1.47378       Encoding TIME_B_S dType: object
+                R_AB_1_n                 |    7.21055       Encoding R_AB_1_n dType: object
+                R_AB_2_n                 |    6.95439       Encoding R_AB_2_n dType: object
+                R_AB_3_n                 |    6.75482       Encoding R_AB_3_n dType: object
+                 NA_KB                   |   -1.34425       Encoding NA_KB dType: object
+               NOT_NA_KB                 |   -1.08336       Encoding NOT_NA_KB dType: object
+                 LID_KB                  |   -1.69249       Encoding LID_KB dType: object
+                 NITR_S                  |    6.19108       Encoding NITR_S dType: object
+                NA_R_1_n                 |    4.76700       Encoding NA_R_1_n dType: object
+                NA_R_2_n                 |    7.96951       Encoding NA_R_2_n dType: object
+                NA_R_3_n                 |    6.12268       Encoding NA_R_3_n dType: object
+               NOT_NA_1_n                |   12.60087       Encoding NOT_NA_1_n dType: object
+               NOT_NA_2_n                |    7.23019       Encoding NOT_NA_2_n dType: object
+               NOT_NA_3_n                |    5.15577       Encoding NOT_NA_3_n dType: object
+                LID_S_n                  |   -0.38945       Encoding LID_S_n dType: object
+               B_BLOK_S_n                |    5.33423       Encoding B_BLOK_S_n dType: object
+               ANT_CA_S_n                |   -1.17119       Encoding ANT_CA_S_n dType: object
+               GEPAR_S_n                 |   -0.70476       Encoding GEPAR_S_n dType: object
+                ASP_S_n                  |   -0.37393       Encoding ASP_S_n dType: object
+                TIKL_S_n                 |   50.26466       Encoding TIKL_S_n dType: object
+               TRENT_S_n                 |    1.72969       Encoding TRENT_S_n dType: object
+               FIBR_PREDS                |    5.11111       
+               PREDS_TAH                 |   80.01190       
+               JELUD_TAH                 |   35.50152       
+               FIBR_JELUD                |   18.98725       
+                A_V_BLOK                 |   24.85925       
+               OTEK_LANC                 |    5.79500       
+                 RAZRIV                  |   26.51429       
+                DRESSLER                 |   17.71282       
+                  ZSN                    |   -0.38359       
+                 REC_IM                  |    5.79500       
+               P_IM_STEN                 |    6.58185       
+                 LET_IS                  |   10.71955       
+Plot was generated and stored at >>>./output/miocardial.analysis.kurtosis.png
+
+
+Testing If Data Follows Normal Distribution
+----------------------------------------
+                Feature                  | Shapiro P-Value |    Normally Dist    
+---------------------------------------------------------------------------------
+ID                                       | 1.657147860E-22 |          NO                
+AGE                                      | 8.017553228E-06 |          NO                Encoding AGE dType: object
+SEX                                      | 0.000000000E+00 |          NO                
+INF_ANAM                                 | 0.000000000E+00 |          NO                Encoding INF_ANAM dType: object
+STENOK_AN                                | 1.829142911E-40 |          NO                Encoding STENOK_AN dType: object
+FK_STENOK                                | 7.006492322E-44 |          NO                Encoding FK_STENOK dType: object
+IBS_POST                                 | 9.956808529E-39 |          NO                Encoding IBS_POST dType: object
+IBS_NASL                                 | 0.000000000E+00 |          NO                Encoding IBS_NASL dType: object
+GB                                       | 4.203895393E-44 |          NO                Encoding GB dType: object
+SIM_GIPERT                               | 0.000000000E+00 |          NO                Encoding SIM_GIPERT dType: object
+DLIT_AG                                  | 3.036613772E-42 |          NO                Encoding DLIT_AG dType: object
+ZSN_A                                    | 0.000000000E+00 |          NO                Encoding ZSN_A dType: object
+nr11                                     | 0.000000000E+00 |          NO                Encoding nr11 dType: object
+nr01                                     | 0.000000000E+00 |          NO                Encoding nr01 dType: object
+nr02                                     | 0.000000000E+00 |          NO                Encoding nr02 dType: object
+nr03                                     | 0.000000000E+00 |          NO                Encoding nr03 dType: object
+nr04                                     | 0.000000000E+00 |          NO                Encoding nr04 dType: object
+nr07                                     | 0.000000000E+00 |          NO                Encoding nr07 dType: object
+nr08                                     | 0.000000000E+00 |          NO                Encoding nr08 dType: object
+np01                                     | 0.000000000E+00 |          NO                Encoding np01 dType: object
+np04                                     | 0.000000000E+00 |          NO                Encoding np04 dType: object
+np05                                     | 0.000000000E+00 |          NO                Encoding np05 dType: object
+np07                                     | 0.000000000E+00 |          NO                Encoding np07 dType: object
+np08                                     | 0.000000000E+00 |          NO                Encoding np08 dType: object
+np09                                     | 0.000000000E+00 |          NO                Encoding np09 dType: object
+np10                                     | 0.000000000E+00 |          NO                Encoding np10 dType: object
+endocr_01                                | 0.000000000E+00 |          NO                Encoding endocr_01 dType: object
+endocr_02                                | 0.000000000E+00 |          NO                Encoding endocr_02 dType: object
+endocr_03                                | 0.000000000E+00 |          NO                Encoding endocr_03 dType: object
+zab_leg_01                               | 0.000000000E+00 |          NO                Encoding zab_leg_01 dType: object
+zab_leg_02                               | 0.000000000E+00 |          NO                Encoding zab_leg_02 dType: object
+zab_leg_03                               | 0.000000000E+00 |          NO                Encoding zab_leg_03 dType: object
+zab_leg_04                               | 0.000000000E+00 |          NO                Encoding zab_leg_04 dType: object
+zab_leg_06                               | 0.000000000E+00 |          NO                Encoding zab_leg_06 dType: object
+S_AD_KBRIG                               | 0.000000000E+00 |          NO                Encoding S_AD_KBRIG dType: object
+D_AD_KBRIG                               | 0.000000000E+00 |          NO                Encoding D_AD_KBRIG dType: object
+S_AD_ORIT                                | 1.691526994E-39 |          NO                Encoding S_AD_ORIT dType: object
+D_AD_ORIT                                | 5.507102965E-43 |          NO                Encoding D_AD_ORIT dType: object
+O_L_POST                                 | 0.000000000E+00 |          NO                Encoding O_L_POST dType: object
+K_SH_POST                                | 0.000000000E+00 |          NO                Encoding K_SH_POST dType: object
+MP_TP_POST                               | 0.000000000E+00 |          NO                Encoding MP_TP_POST dType: object
+SVT_POST                                 | 0.000000000E+00 |          NO                Encoding SVT_POST dType: object
+GT_POST                                  | 0.000000000E+00 |          NO                Encoding GT_POST dType: object
+FIB_G_POST                               | 0.000000000E+00 |          NO                Encoding FIB_G_POST dType: object
+ant_im                                   | 1.751623080E-43 |          NO                Encoding ant_im dType: object
+lat_im                                   | 0.000000000E+00 |          NO                Encoding lat_im dType: object
+inf_im                                   | 2.802596929E-45 |          NO                Encoding inf_im dType: object
+post_im                                  | 0.000000000E+00 |          NO                Encoding post_im dType: object
+IM_PG_P                                  | 0.000000000E+00 |          NO                Encoding IM_PG_P dType: object
+ritm_ecg_p_01                            | 9.809089250E-45 |          NO                Encoding ritm_ecg_p_01 dType: object
+ritm_ecg_p_02                            | 0.000000000E+00 |          NO                Encoding ritm_ecg_p_02 dType: object
+ritm_ecg_p_04                            | 0.000000000E+00 |          NO                Encoding ritm_ecg_p_04 dType: object
+ritm_ecg_p_06                            | 0.000000000E+00 |          NO                Encoding ritm_ecg_p_06 dType: object
+ritm_ecg_p_07                            | 0.000000000E+00 |          NO                Encoding ritm_ecg_p_07 dType: object
+ritm_ecg_p_08                            | 0.000000000E+00 |          NO                Encoding ritm_ecg_p_08 dType: object
+n_r_ecg_p_01                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_01 dType: object
+n_r_ecg_p_02                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_02 dType: object
+n_r_ecg_p_03                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_03 dType: object
+n_r_ecg_p_04                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_04 dType: object
+n_r_ecg_p_05                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_05 dType: object
+n_r_ecg_p_06                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_06 dType: object
+n_r_ecg_p_08                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_08 dType: object
+n_r_ecg_p_09                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_09 dType: object
+n_r_ecg_p_10                             | 0.000000000E+00 |          NO                Encoding n_r_ecg_p_10 dType: object
+n_p_ecg_p_01                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_01 dType: object
+n_p_ecg_p_03                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_03 dType: object
+n_p_ecg_p_04                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_04 dType: object
+n_p_ecg_p_05                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_05 dType: object
+n_p_ecg_p_06                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_06 dType: object
+n_p_ecg_p_07                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_07 dType: object
+n_p_ecg_p_08                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_08 dType: object
+n_p_ecg_p_09                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_09 dType: object
+n_p_ecg_p_10                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_10 dType: object
+n_p_ecg_p_11                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_11 dType: object
+n_p_ecg_p_12                             | 0.000000000E+00 |          NO                Encoding n_p_ecg_p_12 dType: object
+fibr_ter_01                              | 0.000000000E+00 |          NO                Encoding fibr_ter_01 dType: object
+fibr_ter_02                              | 0.000000000E+00 |          NO                Encoding fibr_ter_02 dType: object
+fibr_ter_03                              | 0.000000000E+00 |          NO                Encoding fibr_ter_03 dType: object
+fibr_ter_05                              | 0.000000000E+00 |          NO                Encoding fibr_ter_05 dType: object
+fibr_ter_06                              | 0.000000000E+00 |          NO                Encoding fibr_ter_06 dType: object
+fibr_ter_07                              | 0.000000000E+00 |          NO                Encoding fibr_ter_07 dType: object
+fibr_ter_08                              | 0.000000000E+00 |          NO                Encoding fibr_ter_08 dType: object
+GIPO_K                                   | 8.688050479E-44 |          NO                Encoding GIPO_K dType: object
+K_BLOOD                                  | 2.203836108E-39 |          NO                Encoding K_BLOOD dType: object
+GIPER_Na                                 | 0.000000000E+00 |          NO                Encoding GIPER_Na dType: object
+Na_BLOOD                                 | 4.210919046E-32 |          NO                Encoding Na_BLOOD dType: object
+ALT_BLOOD                                | 1.197771095E-36 |          NO                Encoding ALT_BLOOD dType: object
+AST_BLOOD                                | 1.586269862E-42 |          NO                Encoding AST_BLOOD dType: object
+KFK_BLOOD                                | 0.000000000E+00 |          NO                Encoding KFK_BLOOD dType: object
+L_BLOOD                                  | 9.184810784E-41 |          NO                Encoding L_BLOOD dType: object
+ROE                                      | 1.942993347E-33 |          NO                Encoding ROE dType: object
+TIME_B_S                                 | 1.864338632E-33 |          NO                Encoding TIME_B_S dType: object
+R_AB_1_n                                 | 0.000000000E+00 |          NO                Encoding R_AB_1_n dType: object
+R_AB_2_n                                 | 0.000000000E+00 |          NO                Encoding R_AB_2_n dType: object
+R_AB_3_n                                 | 0.000000000E+00 |          NO                Encoding R_AB_3_n dType: object
+NA_KB                                    | 5.364170521E-42 |          NO                Encoding NA_KB dType: object
+NOT_NA_KB                                | 3.314070868E-42 |          NO                Encoding NOT_NA_KB dType: object
+LID_KB                                   | 2.522337236E-44 |          NO                Encoding LID_KB dType: object
+NITR_S                                   | 0.000000000E+00 |          NO                Encoding NITR_S dType: object
+NA_R_1_n                                 | 0.000000000E+00 |          NO                Encoding NA_R_1_n dType: object
+NA_R_2_n                                 | 0.000000000E+00 |          NO                Encoding NA_R_2_n dType: object
+NA_R_3_n                                 | 0.000000000E+00 |          NO                Encoding NA_R_3_n dType: object
+NOT_NA_1_n                               | 0.000000000E+00 |          NO                Encoding NOT_NA_1_n dType: object
+NOT_NA_2_n                               | 0.000000000E+00 |          NO                Encoding NOT_NA_2_n dType: object
+NOT_NA_3_n                               | 0.000000000E+00 |          NO                Encoding NOT_NA_3_n dType: object
+LID_S_n                                  | 0.000000000E+00 |          NO                Encoding LID_S_n dType: object
+B_BLOK_S_n                               | 0.000000000E+00 |          NO                Encoding B_BLOK_S_n dType: object
+ANT_CA_S_n                               | 0.000000000E+00 |          NO                Encoding ANT_CA_S_n dType: object
+GEPAR_S_n                                | 0.000000000E+00 |          NO                Encoding GEPAR_S_n dType: object
+ASP_S_n                                  | 0.000000000E+00 |          NO                Encoding ASP_S_n dType: object
+TIKL_S_n                                 | 0.000000000E+00 |          NO                Encoding TIKL_S_n dType: object
+TRENT_S_n                                | 0.000000000E+00 |          NO                Encoding TRENT_S_n dType: object
+FIBR_PREDS                               | 0.000000000E+00 |          NO                
+PREDS_TAH                                | 0.000000000E+00 |          NO                
+JELUD_TAH                                | 0.000000000E+00 |          NO                
+FIBR_JELUD                               | 0.000000000E+00 |          NO                
+A_V_BLOK                                 | 0.000000000E+00 |          NO                
+OTEK_LANC                                | 0.000000000E+00 |          NO                
+RAZRIV                                   | 0.000000000E+00 |          NO                
+DRESSLER                                 | 0.000000000E+00 |          NO                
+ZSN                                      | 0.000000000E+00 |          NO                
+REC_IM                                   | 0.000000000E+00 |          NO                
+P_IM_STEN                                | 0.000000000E+00 |          NO                
+LET_IS                                   | 0.000000000E+00 |          NO                
