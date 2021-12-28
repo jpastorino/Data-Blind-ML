@@ -115,9 +115,7 @@ The specific libraries are listed in `environments/requirements_datablind.txt` a
             - Dataset
             - Exceptions
         - __Packages__:
-            - `/Server.py`: implements the evaluation server. 
-        - __Classes__:
-            - `/Server.py`: Server and ClientWorker: process evaluation requests from clients, and evaluate models.
+            - `/Server.py`: implements the evaluation server. Server and ClientWorker: process evaluation requests from clients, and evaluate models.
         - __Applications__:
             - `/model_eval_server_app.py`: implements the frontend for the data owner to load the metadata and start the evaluation server. It is the app for the data owner to start the evaluation server.
     - `/practitioner`: Practitioner development environment. Includes sample modeling for the six provided datasets.
